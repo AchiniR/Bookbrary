@@ -1,0 +1,448 @@
+.App {
+  text-align: center;
+}
+
+.navbar{
+  background-color: rgb(0, 26, 26);
+  color: aliceblue;
+}
+
+.navbarBrand{
+  font-family: segoe print;
+  color: aliceblue;
+  font-size: 30px;
+  margin-top: 0.5px;
+  margin-bottom: 5px
+}
+
+.navitem{
+  margin: auto;
+}
+
+.catagory{
+  background: rgb(0, 51, 51, 0.6);
+  color: bisque;
+  font-size: 23px;
+  padding-bottom: 25px;
+  font-family: bahnschrift;
+  padding-top: 20px;
+  margin-top: 70px;
+}
+
+.selectCategory{
+  width: 25%;
+  height: 25%;
+  margin-left: 18px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  display: inline;
+  font-family: bakersignet bt;
+  font-size: 19px;
+}
+.landing {
+  position: relative;
+  background: url(./img/backg.jpg)  no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.landing-inner {
+  padding-top: 110px;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+ .lead{
+     font-family: andale mono;
+ }
+
+ .searchBtn{
+  margin-left: 20px;
+  padding: 10px 50px;
+  background-color: darkslategrey;
+  color: aliceblue;
+  border-width: 1px;
+  border-color: antiquewhite;
+  font-family: bakersignet bt;
+  font-size: 19px;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.labels{
+  font-size: 25px;
+  margin-left: 30px;
+  margin-top: 2%;
+  font-family: book antiqua; 
+  text-align: center;
+  color: darkgreen;
+}
+
+.footer{
+  background-color: #001a1a;
+  margin-bottom: 0px;
+  padding: 20px;
+  color: #f1f1f1;
+
+}
+
+.vl{
+  border-left: 2.5px solid rgb(0, 16, 16);
+  margin-left: 5%;
+  height: 160px;
+}
+
+.label{
+  font-family: geometos neue black;
+  font-size: 16px;
+}
+
+.anchor{
+  color: aliceblue;
+}
+
+.anchor:hover{
+  color: white;
+  text-decoration-line: underline
+}
+
+.search{
+  background-color: rgba(43, 231, 193, 0.199);
+  border-radius: 12px;
+  border-width: 1px;
+  width: 155px;
+  height: 35px;
+}
+
+/* PostAd page styles */
+.img{
+  background: url(./img/postBack.jpg); 
+  background-repeat: repeat;
+  margin-top: 0px;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  position: relative;
+
+}
+.input{
+  margin-bottom: 1rem;
+}
+
+.textArea{
+  background-color: rgb(0, 0, 0, 0.6);
+  color: aliceblue;
+
+}
+
+.form{
+  margin: 25px 175px 25px 175px; 
+  border: 1px solid;
+  padding: 30px;
+  border-style: outset;font-size: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(49, 189, 142);
+}
+
+h4{
+  text-align: left;
+  margin: 0px 175px 0px 175px; 
+  font-size: 30px;
+  padding: 15px
+}
+
+.tabStyle{
+  margin: 0px 175px 0px 175px;
+}
+
+.tabColor{
+  color: aliceblue;
+}
+
+.tabColor:hover{
+  color: brown;
+}
+
+.postBtn{
+  margin-left: 35%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 80px;
+  background-color: #1a000d;
+  font-size: 18px
+}
+
+.popular{
+  height: 220px;
+  margin-bottom: 3%;
+  margin-right: 2%;
+  background-color: #57340f;
+  position: relative;
+  color: #b38600;
+  text-align: center;
+  font-size: 25px;
+  font-family: candara;
+  padding-top: 40px;
+}
+
+.donationBack{
+  background-color: rgb(0,77,77);
+  height: 260px;
+  position: relative;
+}
+.donation{
+  background-color: #475b5c;
+  width: 500px;
+  height: 200px;
+
+}
+/* PostAdLogin */
+.back{
+  background-color: rgb(0, 26, 26);
+  color: aliceblue;
+  text-align: center;
+  align-content: center;
+  margin: 1% 25% 5% 25%;
+  font-size: 20px;
+  font-family: calibri;
+}
+
+.warning{
+  color: tomato;
+  font-size: 25px;
+  margin: 10px 10px 10px 10px;
+}
+
+.nextBtn{
+  margin: 20px 0% 20px 40%;
+  background-color: green;
+  padding: 8px 30px;
+}
+
+.fa-search{
+  color: white;
+}
+
+/* posts ad*/
+.postImage{
+  height: 350px;
+  width: 250px; 
+}
+
+.post{
+  margin:30px 5% 30px 6%;
+}
+
+.ad{
+  padding: 50px 50px 50px 50px;
+  text-align: justify;
+}
+
+.name{
+  font-family: berlin sans fb;
+  font-size: 25px;
+  color: #8a3324;
+}
+
+.author{
+  font-family: berlin sans fb;
+  font-size: 20px;
+
+}
+
+.vl2{
+  border-left: 1px solid rgb(97, 99, 97);
+  height: 270px;
+  margin-top: 55px;
+}
+
+.condition{
+  font-family: book antiqua;
+  font-size: 18px;
+  color: #25df1e;
+}
+
+.price{
+  font-size: 50px;
+  color: rgb(228, 7, 7);
+}
+
+/*ViewProfile*/
+.userName{
+  font-size: 40px;
+  font-family: cambria;
+  margin: 5% 0% 0% 0%;
+}
+
+.edit{
+  margin: 16% 5% 5% 1%;
+  padding: 5px 10px;
+  background-color: transparent;
+  color:black;
+  border-width: 1px;
+  font-family: bakersignet bt;
+  font-size: 16px;
+}
+
+.edit:hover{
+  background-color: lightgray;
+}
+
+.shopImg {
+  width: 150px;
+  padding: 30px 10px 10px 10px;
+}
+
+.shpbtn{
+  margin: 0% 0% 5% 0%;
+  padding: 5px 10px;
+  border-width: 1px;
+  font-size: 16px;
+}
+
+.profilePic {
+  width: 170px;
+  padding: 20px 20px;
+  border-radius: 50%;
+}
+
+.cardI{
+  height:285px
+}
+
+.cardD{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardD:hover{
+  border-color: #001a1a;
+  
+}
+
+.tab {
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium';
+  
+}
+
+.postedit{
+  margin-bottom: 2px;
+  background-color: transparent;
+  color:rgb(0, 0, 0);
+  border-width: 1px;
+  font-family: bakersignet bt;
+}
+
+.postedit:hover{
+  background-color: lightgray;
+  color: black;
+}
+
+/* Chat */
+
+.msgForm{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+  margin-left: 25%;
+  border: 1px solid;
+  padding: 20px 50px;
+  border-style: outset;font-size: 16px;
+  margin-bottom: 20px;
+  
+}
+
+.chatContainer {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 12px;
+  padding: 10px 30px;
+  margin-right: 60%;
+  margin-left: 10px;
+  text-align: left;
+  margin-top: 8px;
+}
+
+/* Darker chat container */
+.chatContainerDarker {
+  border: 2px solid;
+  border-color: #ccc;
+  background-color: #ddd;
+  border-radius: 12px;
+  padding: 10px 30px;
+  margin-left: 60%;
+  margin-right: 10px;
+  text-align: right;
+  margin-top: 8px;
+}
+
+.chat{
+  margin: auto;
+  width: 60%;
+  /* background-color: rgb(223, 218, 193) ; */
+}
+
+/* Clear floats */
+.chatContainer::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+.chatContainerDarker::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+
+/* Style time text */
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+  float: left;
+  color: #999;
+}
+
+/* donate */
+.donate{
+  margin: auto;
+  width: 50%;
+  margin-bottom: 35px;
+  padding-top: 20px;
+  color: white;
+}
+.donateBack{
+  position: relative;
+  background: url(./img/postBack.jpg)  no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.li{
+  color: #bef108;
+  font-size: 18px;
+}
+
+/* Auction */
+.auction{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 50px;
+  padding: 10px 30px;
+  width: 390px;
+}
